@@ -5,6 +5,11 @@ import (
 	"time"
 )
 
+func outer() {
+	var i4 = 10000000000
+	fmt.Println(i4)
+}
+
 func main() {
 	fmt.Println("Hello World")
 
@@ -24,4 +29,9 @@ func main() {
 		i2 = "Hello Golang"
 	)
 	fmt.Println(si,i2)
+
+	i = 150
+	fmt.Println(i)
+
+	outer()
 }
